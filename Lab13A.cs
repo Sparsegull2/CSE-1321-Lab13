@@ -77,13 +77,13 @@ class Lab13A
         Console.WriteLine("Year 2020:");
         Console.WriteLine("Building 1 has "+buildingOne.getStories()+" floors, "+buildingOne.getRooms()+" apartments, and is "+buildingOne.getOcc()*100+"% occupied. Full? "+buildingOne.getFull());
 
-        Console.WriteLine("Building 1 has " + buildingTwo.getStories() + " floors, " + buildingTwo.getRooms() + " apartments, and is " + buildingTwo.getOcc() * 100 + "% occupied. Full? " + buildingTwo.getFull());
+        Console.WriteLine("Building 2 has " + buildingTwo.getStories() + " floors, " + buildingTwo.getRooms() + " apartments, and is " + buildingTwo.getOcc() * 100 + "% occupied. Full? " + buildingTwo.getFull());
         Console.WriteLine("\nMany years pass.\n");
         buildingOne.setOcc(0.0f);
         buildingTwo.setOcc(1.0f);
         Console.WriteLine("Year 2043:");
         Console.WriteLine("Building 1 has " + buildingOne.getStories() + " floors, " + buildingOne.getRooms() + " apartments, and is " + buildingOne.getOcc() * 100 + "% occupied. Full? " + buildingOne.getFull());
-        Console.WriteLine("Building 1 has " + buildingTwo.getStories() + " floors, " + buildingTwo.getRooms() + " apartments, and is " + buildingTwo.getOcc() * 100 + "% occupied. Full? " + buildingTwo.getFull());
+        Console.WriteLine("Building 2 has " + buildingTwo.getStories() + " floors, " + buildingTwo.getRooms() + " apartments, and is " + buildingTwo.getOcc() * 100 + "% occupied. Full? " + buildingTwo.getFull());
         Console.WriteLine("\nLooks like people prefer taller buildings.");
 
     }
